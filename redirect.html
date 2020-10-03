@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<meta http-equiv="refresh" content="5;url=http://www.tiki.vn/">
+
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script language="JavaScript">
+		var thoigian = 6;
+		
+		function DemLui(){
+			if (thoigian>0)
+			{
+				thoigian = thoigian - 1;
+				document.all.PrintTime.innerHTML="Chuyển hướng sau " + thoigian +" giây";
+				
+				
+
+			}
+			else
+			{
+				myTimeout.clearTimeout(DemLui);
+			}
+			var myTimeout = setTimeout(DemLui,1000);
+
+		}
+		</script>
+	
+	</head>
+	<body bgcolor="#FDDCDD">
+
+		<div class="swap">
+
+
+			<div class="log">
+
+				<img src="images/product.png" alt="#" >
+				<br>
+				<p>Cảm ơn bạn đã sử dụng Product Finder, bạn đang được chuyển đến trang bán deal</p>
+				<br>
+				<a href="http://www.tiki.vn">Áo Thun Nữ giá sốc 150k - Tiki.vn</a>
+				<br>
+				
+			</div>
+			
+			<br>
+			<!-- <form name="f1"> -->
+			
+				
+		
+			
+			<div id="PrintTime" style="color:#d30f30 ; font-size: 20px; width: 100%; height: auto; padding: auto; font-family: Montserrat, sans-serif; padding: 20px auto;
+			text-align: center;">
+					
+					<script>DemLui()</script>
+					
+			</div>
+			
+			<div style="clear:both;">
+				
+			</div>
+					
+		
+			<!-- </form> -->
+			<div class="hm">
+				<!-- <p>jnxzkvd</p> -->
+				<a href="index.html" >Về trang chủ</a>
+
+				
+			</div>
+
+			<br><br>
+				
+		</div>
+
+
+	</body>
+
+</html>
